@@ -10,6 +10,16 @@ header{
     display: flex;
     heigth: "70px";
     justify-content: space-between;
+    align-items:center;
+    padding:10px;
+}
+.logo{
+    display: flex;
+    align-items:center;
+}
+.logo img{
+    heigth: 50px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -20,8 +30,8 @@ h1 {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+    color: #ffffff;
 }
 
 a:hover {
