@@ -1,9 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background-color: #777774;
     margin: 0;
     padding: 0;
     color: #ffffff;
+}
+
+header{
+    display: flex;
+    heigth: "70px";
+    justify-content: space-between;
 }
 
 h1 {
