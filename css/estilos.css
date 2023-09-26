@@ -75,22 +75,22 @@ header a:hover{
     color: blueviolet;
 }
 
-#somos-proya .container{
+index.html .container{
     text-align: center;
     padding: 200px 12px;
 }
 
-#nuestros-programas{
+index.html .container{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container{
+habitaciones.html .container{
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+habitaciones h2{
     margin-top: 0;
     font-size: 3.2em;
 }
