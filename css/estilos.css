@@ -86,7 +86,7 @@ header a{
 }
 
 header a:hover{
-    color: blueviolet;
+    color: black;
 }
 
 #hero{
@@ -108,7 +108,7 @@ header a:hover{
 }
 
 #hero h1{
-    color: white;
+    color: aquamarine;
 }
 
 #hero button{
