@@ -7,18 +7,28 @@ html{
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:  oblique bold 120%  cursive;
     margin: 0;
 }
 
 h1{ font-size: 3.5em;
     font: oblique bold 120%  cursive;
   }
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
+h2{ font-size: 2.7em;
+   font: oblique bold 120%  cursive;
+  }
+h3{ font-size: 2em;
+   font: oblique bold 120%  cursive;
+  }
+p{ font-size: 1.25em;
+ font: oblique bold 120%  cursive;
+ }
+ul{ list-style: none;
+   font: oblique bold 120%  cursive;
+  }
+li{ font-size: 1.25em;
+  font: oblique bold 120%  cursive;
+  }
 
 button{
     font-size: 1.25em;
