@@ -89,6 +89,17 @@ header a:hover{
     color: black;
 }
 
+body a{
+    padding: 5px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+body a:hover{
+    color: black;
+}
+
 #hero{
     display: flex;
     align-items: center;
