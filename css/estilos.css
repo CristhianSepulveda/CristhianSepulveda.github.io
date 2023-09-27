@@ -89,7 +89,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url('imagenes/hotel.png');
+    ,url('imagenes/index/Hotel.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -241,12 +241,12 @@ footer .container{
         font-size: 5em;
     }
 
-    #somos-proya .container{
+    #quienes-somos .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-proya .texto{
+    #quienes-somos .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -256,12 +256,12 @@ footer .container{
         justify-content: center;
     }
 
-    #somos-proya h2{
+    #quienes-somos h2{
         margin-top: 0px;
     }
 
-    #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+    #quienes-somos .img-container{
+        background-image: url("imagenes/index/Hotel.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -301,7 +301,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("imagenes/index/Dormitorio.png");
 
     }
 
@@ -311,7 +311,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("imagenes/index/Eventos.png");
     }
 
     .menu:nth-child(3){
@@ -320,12 +320,22 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("imagenes/index/Restaurante.jpg");
+
+    }
+
+    .menu:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imagenes/index/OfertasyPlanes.jpg");
 
     }
 
     #contacto{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("imagenes/index/Empleados.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
