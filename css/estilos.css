@@ -162,7 +162,7 @@ body a:hover{
     font-weight: bold;
 }
 
-#quienes-somos .container{
+#empleados .container{
     text-align: center;
     padding: 200px 12px;
 }
@@ -316,6 +316,33 @@ footer .container{
         width: 400px; 
     }
 
+    #empleados .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #empleados .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #empleados h2{
+        margin-top: 0px;
+    }
+
+    #empleados .im-container{
+        background-image: url("../imagenes/index/Hotel.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+    
     #conoce-mas .conoce{
         display: flex;
         justify-content: center;
