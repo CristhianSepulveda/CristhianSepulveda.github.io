@@ -180,42 +180,20 @@ body a:hover{
 }
 
 .menu:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/index/Dormitorio.png");
+    background-image: url("../imagenes/index/Dormitorio.png");
 
 }
 
 .menu:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/index/Eventos.png");
+    background-image: url("../imagenes/index/Eventos.png");
 }
 
 .menu:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/index/Restaurante.jpg");
-
+    background-image: url("../imagenes/index/Restaurante.jpg");
 }
 
 .menu:nth-child(4){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/index/OfertasyPlanes.jpg");
-
+    background-image: url("../imagenes/index/OfertasyPlanes.jpg");
 }
 
 #contacto.container{
