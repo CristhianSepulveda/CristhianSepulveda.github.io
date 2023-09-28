@@ -152,6 +152,21 @@ body a:hover{
     padding: 200px 12px;
 }
 
+#contacto.container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#contacto li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#quienes-somos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
 #conoce.mas{
     background-color: rgb(30,30,30);
     color: white;
@@ -178,17 +193,6 @@ body a:hover{
     margin: 30px;
     border-radius: 15px;
 }
-
-#contacto.container{
-    text-align: center;
-    padding: 250px 12px;
-}
-
-#contacto li{
-    margin: 16px 0px;
-    font-weight: bold;
-}
-
 
 .menu:first-child{
     background-image:  linear-gradient(
