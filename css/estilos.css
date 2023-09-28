@@ -165,7 +165,7 @@ body a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("CristhianSepulveda.github.io/imagenes/index/Dormitorio.png");
+    ,url("../imagenes/index/Dormitorio.png");
 
 }
 
@@ -175,7 +175,7 @@ body a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/index/Eventos.png");
+    ,url("../imagenes/index/Eventos.png");
 }
 
 .menu:nth-child(3){
@@ -184,7 +184,7 @@ body a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/index/Restaurante.jpg");
+    ,url("../imagenes/index/Restaurante.jpg");
 
 }
 
@@ -194,7 +194,7 @@ body a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/index/OfertasyPlanes.jpg");
+    ,url("../imagenes/index/OfertasyPlanes.jpg");
 
 }
 
@@ -285,7 +285,7 @@ footer .container{
     }
 
     #quienes-somos .img-container{
-        background-image: url("imagenes/index/Hotel.jpg");
+        background-image: url("../imagenes/index/Hotel.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -325,7 +325,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/index/Dormitorio.png");
+        ,url("../imagenes/index/Dormitorio.png");
 
     }
 
@@ -335,7 +335,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/index/Eventos.png");
+        ,url("../imagenes/index/Eventos.png");
     }
 
     .menu:nth-child(3){
@@ -344,7 +344,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/index/Restaurante.jpg");
+        ,url("../imagenes/index/Restaurante.jpg");
 
     }
 
@@ -354,7 +354,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/index/OfertasyPlanes.jpg");
+        ,url("../imagenes/index/OfertasyPlanes.jpg");
     }
 
     .menu:nth-child(4){
@@ -363,11 +363,11 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("imagenes/index/OfertasyPlanes.jpg");
+        ,url("../imagenes/index/OfertasyPlanes.jpg");
     }
 
     #contacto{
-        background-image: url("imagenes/index/Empleados.jpg");
+        background-image: url("../imagenes/index/Empleados.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
@@ -395,7 +395,7 @@ footer .container{
 }
 
 @media (min-width: 1200px) {
-    #caracteristicas{
+    #contacto{
         background-position-x: calc(100vw - 800px);
     }
 }
