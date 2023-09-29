@@ -157,7 +157,7 @@ body a:hover{
     padding: 200px 12px;
 }
 
-#contacto.container{
+#contacto .container{
     text-align: center;
     padding: 250px 12px;
 }
@@ -168,7 +168,7 @@ body a:hover{
 }
 
 #contacto{
-    background-color: rgb(30,30,30);
+    background-color:gray;
     color: black;
     text-align: center;
 }
