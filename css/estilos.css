@@ -152,6 +152,11 @@ body a:hover{
     padding: 200px 12px;
 }
 
+#empleados .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
 #contacto.container{
     text-align: center;
     padding: 250px 12px;
@@ -162,12 +167,27 @@ body a:hover{
     font-weight: bold;
 }
 
-#empleados .container{
+#contacto{
+    background-color: rgb(30,30,30);
+    color: white;
     text-align: center;
-    padding: 200px 12px;
 }
 
-#conoce.mas{
+#contacto .container{
+    padding: 150px 12px;
+}
+
+#contacto h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#contacto p{
+    display: none;
+}
+
+
+#conoce-mas{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
