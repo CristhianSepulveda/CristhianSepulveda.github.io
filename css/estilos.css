@@ -252,6 +252,33 @@ body a:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+
 #conoce-mas{
     background-color: rgb(30,30,30);
     color: white;
@@ -438,18 +465,18 @@ footer .container{
     .galeria{
         font-family: oblique bold 120%  cursive;
     } 
-
+    
     .galeria h1{
         text-align: center;
         margin: 20px 0px 15px 0px;
         font-weight: 300;
     }
-
+    
     .gal{
         border-top: 5px solid #0000;
     }
-
-    .container-imag{
+    
+    .container-imagenes{
         display: flex;
         width: 85%;
         margin: auto;
@@ -457,21 +484,74 @@ footer .container{
         flex-wrap: warp;
         border-radius: 3px;
     }
-
-    .container-imag .imagen{
+    
+    .container-imagenes .imagen{
         width: 32%;
         position: relative;
         height: 250px;
         margin-bottom: 5px;
         box-shadow: 0px 0px 3px 0px rgb(135,206,235);
     }
-
+    
     .imagen img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+    
+    .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background:rgba(0, 118, 192, 0.781) ;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: .5s ease;
+    }
+    
+    .overlay h2{
+        color: #fff;
+        font-weight: 300;
+        font-size:30px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    
+    .imagen:hover .overlay{
+        height:100%;
+        cursor: pointer;
+    }
 
+    @media screen and (max-width:1000px){
+        .contenedor-imagenes{
+            width: 95%;
+        }
+    }
+    
+    @media screen and (max-width:700px){
+        .contenedor-imagenes{
+            width: 90%;
+        }
+        .contenedor-imagenes .imagen{
+            width: 48%;
+        }
+    }
+    
+    @media screen and (max-width:450px){
+        h1{
+            font-size:22px;
+        }
+        .contenedor-imagenes{
+            width: 98%;
+        }
+        .contenedor-imagenes .imagen{
+            width: 80%;
+        }
+    }
 
     #contacto .container{
         text-align: initial;
