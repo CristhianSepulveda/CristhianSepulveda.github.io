@@ -252,33 +252,6 @@ body a:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width:1000px){
-    .contenedor-imagenes{
-        width: 95%;
-    }
-}
-
-@media screen and (max-width:700px){
-    .contenedor-imagenes{
-        width: 90%;
-    }
-    .contenedor-imagenes .imagen{
-        width: 48%;
-    }
-}
-
-@media screen and (max-width:450px){
-    h1{
-        font-size:22px;
-    }
-    .contenedor-imagenes{
-        width: 98%;
-    }
-    .contenedor-imagenes .imagen{
-        width: 80%;
-    }
-}
-
 #conoce-mas{
     background-color: rgb(30,30,30);
     color: white;
@@ -525,34 +498,8 @@ footer .container{
         height:100%;
         cursor: pointer;
     }
-
-    @media screen and (max-width:1000px){
-        .contenedor-imagenes{
-            width: 95%;
-        }
-    }
     
-    @media screen and (max-width:700px){
-        .contenedor-imagenes{
-            width: 90%;
-        }
-        .contenedor-imagenes .imagen{
-            width: 48%;
-        }
-    }
     
-    @media screen and (max-width:450px){
-        h1{
-            font-size:22px;
-        }
-        .contenedor-imagenes{
-            width: 98%;
-        }
-        .contenedor-imagenes .imagen{
-            width: 80%;
-        }
-    }
-
     #contacto .container{
         text-align: initial;
     }
