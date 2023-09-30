@@ -38,11 +38,11 @@ button{
     border: 2px solid rgba(0,0,0,0.3);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color:black;
-    background-color: celeste;
+    background-color: aquamarine;
 }
 
 button:hover{
-    background-color: celeste;
+    background-color: brown;
     padding: 15px 30px;
 }
 
@@ -52,27 +52,27 @@ button:hover{
 }
 
 .reserbt{
-    background-color:celeste;
+    background-color:b;
     color: black;
 }
 
 .habi{
-    background-color:celeste;
+    background-color: burlywood;
     color: black;
 }
 
 .eve{
-    background-color:celeste;
+    background-color:bisque;
     color: black;
 }
 
 .resta{
-    background-color:celeste;
+    background-color:blanchedalmond;
     color: black;
 }
 
 .ofe{
-    background-color:celeste;
+    background-color:blue;
     color: black;
 }
 
@@ -435,70 +435,63 @@ footer .container{
         background-position: calc(100vw - 500px) 120px;
     }
 
-    .galeria{
-        font-family: oblique bold 120%  cursive;
-    } 
-    
-    .galeria h1{
+   /* Estilos para la sección de galería */
+    #galeria {
+        font-family: oblique bold 120% cursive;
         text-align: center;
-        margin: 20px 0px 15px 0px;
+        padding: 50px 0;
+    }
+
+    #galeria h2 {
+        margin: 20px 0 15px 0;
         font-weight: 300;
     }
-    
-    .gal{
-        border-top: 5px solid #0000;
-    }
-    
-    .container-imagenes{
+
+    .container-imagenes {
         display: flex;
-        width: 85%;
-        margin: auto;
-        justify-content: space-around;
-        flex-wrap: warp;
-        border-radius: 3px;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-    
-    .container-imagenes .imagen{
-        width: 32%;
+
+    .imagen {
+        width: calc(25% - 20px); 
         position: relative;
-        height: 250px;
-        margin-bottom: 5px;
-        box-shadow: 0px 0px 3px 0px rgb(135,206,235);
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 3px 0px rgb(135, 206, 235);
     }
-    
-    .imagen img{
+
+    .imagen img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    
-    .overlay{
+
+    .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
-        background:rgba(0, 118, 192, 0.781) ;
+        background: rgba(0, 118, 192, 0.781);
         width: 100%;
         height: 0;
         overflow: hidden;
         transition: .5s ease;
     }
-    
-    .overlay h2{
+
+    .overlay h2 {
         color: #fff;
         font-weight: 300;
-        font-size:30px;
+        font-size: 24px;
         position: absolute;
         top: 50%;
-        left:50%;
-        text-align: center;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .imagen:hover .overlay{
-        height:100%;
+
+    .imagen:hover .overlay {
+        height: 100%;
         cursor: pointer;
     }
-    
+
     
     #contacto .container{
         text-align: initial;
