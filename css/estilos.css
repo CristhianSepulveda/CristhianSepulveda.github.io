@@ -202,7 +202,7 @@ body a:hover{
     border-top: 5px solid #0000;
 }
 
-.container-imag{
+.container-imagenes{
     display: flex;
     width: 85%;
     margin: auto;
@@ -211,7 +211,7 @@ body a:hover{
     border-radius: 3px;
 }
 
-.container-imag .imagen{
+.container-imagenes .imagen{
     width: 32%;
     position: relative;
     height: 250px;
@@ -225,6 +225,32 @@ body a:hover{
     object-fit: cover;
 }
 
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
 
 #conoce-mas{
     background-color: rgb(30,30,30);
