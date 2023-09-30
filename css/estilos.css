@@ -188,6 +188,44 @@ body a:hover{
     display: none;
 }
 
+.galeria{
+    font-family: oblique bold 120%  cursive;
+} 
+
+.galeria h1{
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+    font-weight: 300;
+}
+
+.gal{
+    border-top: 5px solid #0000;
+}
+
+.container-imag{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: warp;
+    border-radius: 3px;
+}
+
+.container-imag .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgb(135,206,235);
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 #conoce-mas{
     background-color: rgb(30,30,30);
     color: white;
@@ -252,45 +290,6 @@ body a:hover{
         ,url("../imagenes/index/OfertasyPlanes.jpg");
     
 }
-
-
-.galeria{
-    font-family: oblique bold 120%  cursive;
-} 
-
-.galeria h1{
-    text-align: center;
-    margin: 20px 0px 15px 0px;
-    font-weight: 300;
-}
-
-.gal{
-    border-top: 5px solid #0000;
-}
-
-.container-imag{
-    display: flex;
-    width: 85%;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: warp;
-    border-radius: 3px;
-}
-
-.container-imag .imagen{
-    width: 32%;
-    position: relative;
-    height: 250px;
-    margin-bottom: 5px;
-    box-shadow: 0px 0px 3px 0px rgb(135,206,235);
-}
-
-.imagen img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 
 #final{
     display: flex;
@@ -403,13 +402,50 @@ footer .container{
         width: 400px; 
     }
 
-    
     #contacto{
         background-image: url("../imagenes/index/Salón.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
+
+    .galeria{
+        font-family: oblique bold 120%  cursive;
+    } 
+
+    .galeria h1{
+        text-align: center;
+        margin: 20px 0px 15px 0px;
+        font-weight: 300;
+    }
+
+    .gal{
+        border-top: 5px solid #0000;
+    }
+
+    .container-imag{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: warp;
+        border-radius: 3px;
+    }
+
+    .container-imag .imagen{
+        width: 32%;
+        position: relative;
+        height: 250px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 3px 0px rgb(135,206,235);
+    }
+
+    .imagen img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
 
     #contacto .container{
         text-align: initial;
@@ -485,45 +521,6 @@ footer .container{
         ,url("../imagenes/index/OfertasyPlanes.jpg");
         
     }
-
-
-    .galeria{
-        font-family: oblique bold 120%  cursive;
-    } 
-
-    .galeria h1{
-        text-align: center;
-        margin: 20px 0px 15px 0px;
-        font-weight: 300;
-    }
-
-    .gal{
-        border-top: 5px solid #0000;
-    }
-
-    .container-imag{
-        display: flex;
-        width: 85%;
-        margin: auto;
-        justify-content: space-around;
-        flex-wrap: warp;
-        border-radius: 3px;
-    }
-
-    .container-imag .imagen{
-        width: 32%;
-        position: relative;
-        height: 250px;
-        margin-bottom: 5px;
-        box-shadow: 0px 0px 3px 0px rgb(135,206,235);
-    }
-
-    .imagen img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
 
     #final h2{
         font-size: 5em;
