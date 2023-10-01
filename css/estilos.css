@@ -188,6 +188,12 @@ body a:hover{
     display: none;
 }
 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 #galeria{
     font-family: oblique bold 120%  cursive;
 } 
@@ -434,6 +440,13 @@ footer .container{
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
     #galeria {
         font-family: oblique bold 120% cursive;
         text-align: center;
